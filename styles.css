@@ -1,0 +1,42 @@
+body {
+    background-color: #B2CA91;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 8px;
+}
+
+.image{
+    background-color: #6DA45B;
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.audio{
+    background-color: #62A776;
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.video{
+    background-color: #92A45B;
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.credits{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
